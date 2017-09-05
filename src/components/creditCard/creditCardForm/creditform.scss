@@ -1,0 +1,74 @@
+.input-icon {
+    background: #59aff3;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    height: 50px;
+    padding-top: 3px;
+    width: 50px;
+    text-align: center;
+    position: relative;
+}
+.input-left {
+    width: 45%;
+    display: inline-block;
+}
+.input-icon i {
+    margin-top: 10px;
+}
+.input-label {
+    background: #edf7fe;
+    color: #2082cd;
+    font-size: 13px;
+    font-weight: 400!important;
+    height: 100%;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: 52px;
+    padding: 0 0 0 7px;
+    position: absolute;
+    top: 0;
+    width: 120px;
+}
+.form-control {
+    position: relative;
+    margin: 15px 0;
+    color: #616161;
+    font-weight: 300;
+}
+.input-right {
+    width: 55%;
+    display: inline-block;
+}
+.input-item {
+    width: 55%;
+    display: block;
+    line-height: 50px;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.credit-form-container{
+    padding: 10px 10px 0;
+    display: inline-block;
+    width: 100%;
+    background: #eee;
+    box-sizing: border-box;
+}
+
+.input-item:focus {
+    border: none;
+    outline: none;
+}
+.inr-icon{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #59aff3;
+}

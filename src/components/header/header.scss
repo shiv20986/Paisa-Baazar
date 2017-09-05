@@ -1,0 +1,74 @@
+header {
+    background: #1c3c5d;
+    padding: 15px 10px 0;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.header-icons {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-btn, .icon{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.icon {
+    border-radius: 4px;
+}
+
+.user-icon-link {
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    background: #f90;
+    background: -webkit-linear-gradient(#f90,#ff6700);
+    background: -o-linear-gradient(#f90,#ff6700);
+    background: -moz-linear-gradient(#f90,#ff6700);
+    background: linear-gradient(#f90,#ff6700);
+}
+
+.header-icon-c {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 2px;
+}
+
+.header-icon-c:first-child{
+    margin-left: 0;
+}
+
+.call-icon {
+    display: block;
+    width: 100%;
+}
+
+.user-icon {
+    background-position: -275px 10px;
+}
+
+.header-icon.icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+.header-icon.icon-bar + .icon-bar{
+    margin-top: 4px;
+}
+.menu-btn {
+    padding: 9px 6px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #01495a!important;
+}

@@ -1,0 +1,53 @@
+.credit-container {
+    background-color: #0059a7;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.credit-container ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+}
+
+
+.credit-container ul:before {
+    content: ' ';
+    border: 1px solid white;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: -10px;
+}
+.credit-container ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    position: relative;
+}
+.credit-container ul li:before,.credit-container ul li:after {
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+}
+.credit-container ul li:before {
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    top: -16px;
+    background-color: white;
+}
+.credit-container ul li:after {
+    left: 51%;
+    width: 13px;
+    height: 13px;
+    top: -15px;
+    background-color: #0059a7;
+}
+.credit-container ul li.active:after {
+    background-color: white;
+}

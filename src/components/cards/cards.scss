@@ -1,0 +1,49 @@
+.cards-section {
+    padding: 40px 10px;
+    background: #234669;
+}
+.card-item {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    background-color: #ffffff;
+    float:right;
+    border-radius: 4px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.card-item .card-icon {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+.card-label {
+    text-align: center;
+}
+.free-credit-report .card-icon{
+    background-position: -320px -637px;
+}
+.credit-card .card-icon{
+    background-position: -319px -695px;
+}
+.free-credit-report .card-icon{
+    background-position: -318px -755px;
+}
+.business-loan .card-icon{
+    background-position: -318px -1060px;
+}
+.savings-account .card-icon{
+    background-position: -320px -819px;
+}
+.mutual-fund .card-icon{
+    background-position: -320px -998px;
+}
+.home-loan-transfer .card-icon{
+    background-position: -319px -876px;
+}
+.personal-loan .card-icon{
+    background-position: -398px -819px;
+}
+.car-loan .card-icon{
+    background-position: -318px -1114px;
+}

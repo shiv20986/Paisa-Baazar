@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.sprite-icon {
+    background-image: url('/src/assets/img/paisa_sprite.png');
+    background-repeat: no-repeat;
+}
+
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
